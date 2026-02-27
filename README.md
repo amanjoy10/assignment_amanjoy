@@ -1,3 +1,38 @@
+ASSIGNMENT - 1
+---
+
+# Meta Data Extraction from Documents
+
+## Overview
+
+This project builds an AI/ML system to automatically extract metadata from scanned documents (PDF, JPG, PNG, DOCX), independent of template format.
+
+## Extracted Fields
+
+* Agreement Value
+* Agreement Start Date
+* Agreement End Date
+* Renewal Notice (Days)
+* Party One
+* Party Two
+
+⚠ Rule-based methods (RegEx, static rules, etc.) are not used.
+
+## Dataset
+
+* `train/` – Training files
+* `test/` – Testing files
+* `train.csv` – Ground truth for training
+* `test.csv` – Ground truth for testing
+
+## Evaluation
+
+Metric: **Per-field Recall**
+Recall = True / (True + False)
+
+---
+ASSIGNMENT - 2
+---
 # Power System Load Type Classification
 
 ## Overview
